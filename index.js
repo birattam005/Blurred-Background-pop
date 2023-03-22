@@ -5,12 +5,12 @@ const closeIconEl = document.querySelector(".close-icon");
 
 
 btnEl.addEventListener("click", () =>{
-    // containerEl.classList.add("active");
+    containerEl.classList.add("active");
     popContainerEl.classList.remove("active");
 });
 
 closeIconEl.addEventListener("click", () =>{
-    // containerEl.classList.remove("active");
+    containerEl.classList.remove("active");
     popContainerEl.classList.add("active");
 });
 
